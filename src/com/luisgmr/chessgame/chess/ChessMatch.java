@@ -1,6 +1,8 @@
 package com.luisgmr.chessgame.chess;
 
 import com.luisgmr.chessgame.boardgame.Board;
+import com.luisgmr.chessgame.boardgame.Piece;
+import com.luisgmr.chessgame.boardgame.Position;
 import com.luisgmr.chessgame.chess.pieces.King;
 
 public class ChessMatch {
@@ -20,6 +22,27 @@ public class ChessMatch {
             }
         }
         return mat;
+    }
+
+    public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
+        Position source = sourcePosition.toPosition();
+        Position target = targetPosition.toPosition();
+        validateSourcePosition(source);
+        Piece capturedPiece = makeMove(source, target);
+        return (ChessPiece) capturedPiece;
+    }
+
+    private Piece makeMove(Position source, Position target) {
+        Piece p = board.removePiece(source);
+        Piece capturedPiece = board.removePiece(target);
+        board.placePiece(p, target);
+        return capturedPiece;
+    }
+
+    private void validateSourcePosition(Position position) {
+        if (!board.isPiece(position)) {
+            throw new ChessException("Não existe peça na posição de origem.");
+        }
     }
 
     private void placeNewPiece(char column, int row, ChessPiece piece) {

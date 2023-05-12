@@ -1,7 +1,11 @@
 package com.luisgmr.chessgame.applications;
 
 import com.luisgmr.chessgame.chess.ChessPiece;
+import com.luisgmr.chessgame.chess.ChessPosition;
 import com.luisgmr.chessgame.chess.Color;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class UserInterface {
 
@@ -25,6 +29,17 @@ public class UserInterface {
     public static final String ANSI_PURPLE_BACKGROUND = "\u001B[45m";
     public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
+
+    public static ChessPosition readChessPosition(Scanner sc) {
+        try {
+            String s = sc.nextLine();
+            char column = s.charAt(0);
+            int row = Integer.parseInt(s.substring(1));
+            return new ChessPosition(column, row);
+        } catch (RuntimeException e) {
+            throw new InputMismatchException("Erro lendo ChessPosition. Use somente valores de a1 até h8.");
+        }
+    }
 
     public static void printBoard(ChessPiece[][] pieces) {
         System.out.println(ANSI_BLACK_BACKGROUND + "                     " + ANSI_RESET);
