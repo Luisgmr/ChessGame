@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Commit inicial">
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Main.java" afterDir="false" />
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Implementação do objeto 'Board'">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,7 +41,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,11 +61,35 @@
       <option name="project" value="LOCAL" />
       <updated>1683910936283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Objeto 'Position', das peças">
+      <created>1683911391264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683911391264</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implementação do objeto 'Piece'">
+      <created>1683912192095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683912192095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementação do objeto 'Board'">
+      <created>1683912203571</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683912203571</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value="Objeto 'Position', das peças" />
+    <MESSAGE value="Implementação do objeto 'Piece'" />
+    <MESSAGE value="Implementação do objeto 'Board'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do objeto 'Board'" />
   </component>
 </project>
