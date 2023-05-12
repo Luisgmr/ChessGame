@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Estilização da UserInterface com cores no console">
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Sistema inicial de movimentação das peças">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683918372879</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Sistema inicial de movimentação das peças">
+      <created>1683923294201</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683923294201</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +153,7 @@
     <MESSAGE value="Implementação da 'BoardException'" />
     <MESSAGE value="Implementação da 'ChessException' e 'ChessPosition'" />
     <MESSAGE value="Estilização da UserInterface com cores no console" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estilização da UserInterface com cores no console" />
+    <MESSAGE value="Sistema inicial de movimentação das peças" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistema inicial de movimentação das peças" />
   </component>
 </project>
