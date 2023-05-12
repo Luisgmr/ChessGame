@@ -3,7 +3,7 @@ package com.luisgmr.chessgame.chess;
 import com.luisgmr.chessgame.boardgame.Board;
 import com.luisgmr.chessgame.boardgame.Piece;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 

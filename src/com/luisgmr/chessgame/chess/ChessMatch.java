@@ -4,6 +4,7 @@ import com.luisgmr.chessgame.boardgame.Board;
 import com.luisgmr.chessgame.boardgame.Piece;
 import com.luisgmr.chessgame.boardgame.Position;
 import com.luisgmr.chessgame.chess.pieces.King;
+import com.luisgmr.chessgame.chess.pieces.Rook;
 
 public class ChessMatch {
 
@@ -43,6 +44,9 @@ public class ChessMatch {
         if (!board.isPiece(position)) {
             throw new ChessException("Não existe peça na posição de origem.");
         }
+        if (!board.piece(position).isThereAnyPossibleMove()) {
+            throw new ChessException("Não existe movimentos possíveis para a peça escolhida.");
+        }
     }
 
     private void placeNewPiece(char column, int row, ChessPiece piece) {
@@ -51,7 +55,11 @@ public class ChessMatch {
 
     private void initialSetup() {
         placeNewPiece('e', 1, new King(board, Color.WHITE));
+        placeNewPiece('a', 1, new Rook(board, Color.WHITE));
+        placeNewPiece('h', 1, new Rook(board, Color.WHITE));
         placeNewPiece('e', 8, new King(board, Color.BLACK));
+        placeNewPiece('a', 8, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 8, new Rook(board, Color.BLACK));
     }
 
 }
