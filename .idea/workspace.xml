@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Implementação do objeto 'Board'">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/UserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" afterDir="false" />
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Implementação 'Chess' e método print da 'UserInterface'">
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +39,29 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luisgmr.chessgame.applications.Program" />
+      <module name="ChessGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luisgmr.chessgame.applications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683912203571</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementação 'Chess' e método print da 'UserInterface'">
+      <created>1683913495759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683913495759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -90,6 +114,7 @@
     <MESSAGE value="Objeto 'Position', das peças" />
     <MESSAGE value="Implementação do objeto 'Piece'" />
     <MESSAGE value="Implementação do objeto 'Board'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do objeto 'Board'" />
+    <MESSAGE value="Implementação 'Chess' e método print da 'UserInterface'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação 'Chess' e método print da 'UserInterface'" />
   </component>
 </project>
