@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Implementação 'Chess' e método print da 'UserInterface'">
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Rook.java" afterDir="false" />
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Colocando as peças no tabuleiro">
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/BoardException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
     </list>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683913495759</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Colocando as peças no tabuleiro">
+      <created>1683914165419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683914165419</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +121,7 @@
     <MESSAGE value="Implementação do objeto 'Piece'" />
     <MESSAGE value="Implementação do objeto 'Board'" />
     <MESSAGE value="Implementação 'Chess' e método print da 'UserInterface'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação 'Chess' e método print da 'UserInterface'" />
+    <MESSAGE value="Colocando as peças no tabuleiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Colocando as peças no tabuleiro" />
   </component>
 </project>
