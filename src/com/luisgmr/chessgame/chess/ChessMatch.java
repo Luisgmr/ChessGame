@@ -1,9 +1,7 @@
 package com.luisgmr.chessgame.chess;
 
 import com.luisgmr.chessgame.boardgame.Board;
-import com.luisgmr.chessgame.boardgame.Position;
 import com.luisgmr.chessgame.chess.pieces.King;
-import com.luisgmr.chessgame.chess.pieces.Rook;
 
 public class ChessMatch {
 
@@ -24,9 +22,13 @@ public class ChessMatch {
         return mat;
     }
 
+    private void placeNewPiece(char column, int row, ChessPiece piece) {
+        board.placePiece(piece, new ChessPosition(column, row).toPosition());
+    }
+
     private void initialSetup() {
-        board.placePiece(new Rook(board, Color.WHITE), new Position(2, 1));
-        board.placePiece(new King(board, Color.BLACK), new Position(0, 4));
+        placeNewPiece('e', 1, new King(board, Color.WHITE));
+        placeNewPiece('e', 8, new King(board, Color.BLACK));
     }
 
 }
