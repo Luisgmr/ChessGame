@@ -1,5 +1,7 @@
 package com.luisgmr.chessgame.chess;
 
+import com.luisgmr.chessgame.applications.UserInterface;
+
 public enum Color {
 
     BLACK,
@@ -8,9 +10,9 @@ public enum Color {
     @Override
     public String toString() {
         if (this == WHITE) {
-            return "BRANCAS";
+            return UserInterface.ANSI_RESET + "BRANCAS";
         } else {
-            return "PRETAS";
+            return UserInterface.ANSI_GREEN + "PRETAS";
         }
     }
 }
