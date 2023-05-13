@@ -1,5 +1,6 @@
 package com.luisgmr.chessgame.applications;
 
+import com.luisgmr.chessgame.chess.ChessMatch;
 import com.luisgmr.chessgame.chess.ChessPiece;
 import com.luisgmr.chessgame.chess.ChessPosition;
 import com.luisgmr.chessgame.chess.Color;
@@ -46,7 +47,15 @@ public class UserInterface {
         }
     }
 
+    public static void printMatch(ChessMatch chessMatch) {
+        printBoard(chessMatch.getPieces());
+        System.out.println();
+        System.out.println("Turno: " + chessMatch.getTurn());
+        System.out.println("Esperando jogador: " + chessMatch.getCurrentPlayer());
+    }
+
     public static void printBoard(ChessPiece[][] pieces) {
+        System.out.println();
         System.out.println(ANSI_BLACK_BACKGROUND + "                     " + ANSI_RESET);
         for (int i = 0; i < pieces.length; i++) {
             System.out.print(ANSI_BLACK_BACKGROUND + (8 - i) + " " + ANSI_RESET + " ");
@@ -62,6 +71,7 @@ public class UserInterface {
     }
 
     public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
+        System.out.println();
         System.out.println(ANSI_BLACK_BACKGROUND + "                     " + ANSI_RESET);
         for (int i = 0; i < pieces.length; i++) {
             System.out.print(ANSI_BLACK_BACKGROUND + (8 - i) + " " + ANSI_RESET + " ");
