@@ -3,10 +3,7 @@ package com.luisgmr.chessgame.chess;
 import com.luisgmr.chessgame.boardgame.Board;
 import com.luisgmr.chessgame.boardgame.Piece;
 import com.luisgmr.chessgame.boardgame.Position;
-import com.luisgmr.chessgame.chess.pieces.Bishop;
-import com.luisgmr.chessgame.chess.pieces.King;
-import com.luisgmr.chessgame.chess.pieces.Pawn;
-import com.luisgmr.chessgame.chess.pieces.Rook;
+import com.luisgmr.chessgame.chess.pieces.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -198,12 +195,16 @@ public class ChessMatch {
         placeNewPiece('h', 1, new Rook(board, Color.WHITE));
         placeNewPiece('c', 1, new Bishop(board, Color.WHITE));
         placeNewPiece('f', 1, new Bishop(board, Color.WHITE));
+        placeNewPiece('b', 1, new Knight(board, Color.WHITE));
+        placeNewPiece('g', 1, new Knight(board, Color.WHITE));
 
         placeNewPiece('e', 8, new King(board, Color.BLACK));
         placeNewPiece('a', 8, new Rook(board, Color.BLACK));
         placeNewPiece('h', 8, new Rook(board, Color.BLACK));
         placeNewPiece('c', 8, new Bishop(board, Color.BLACK));
         placeNewPiece('f', 8, new Bishop(board, Color.BLACK));
+        placeNewPiece('b', 8, new Knight(board, Color.BLACK));
+        placeNewPiece('g', 8, new Knight(board, Color.BLACK));
 
         // Peões das brancas e pretas
         char columnPawn = 'a';
