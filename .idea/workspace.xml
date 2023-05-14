@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Contagem de movimento de uma peça">
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Correção do xeque aparecer como xeque-mate">
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Pawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="d0a5695aa5434cec2e85c0a06aaeefa2395433a9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +41,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1684088648" />
+                    <option name="lastUsedInstant" value="1684088905" />
                   </RecentBranch>
                 </list>
               </option>
@@ -222,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684088638370</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Correção do xeque aparecer como xeque-mate">
+      <created>1684089023389</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684089023389</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +264,7 @@
     <MESSAGE value="Sistema de cheque" />
     <MESSAGE value="Sistema de xeque-mate" />
     <MESSAGE value="Contagem de movimento de uma peça" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contagem de movimento de uma peça" />
+    <MESSAGE value="Correção do xeque aparecer como xeque-mate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção do xeque aparecer como xeque-mate" />
   </component>
 </project>

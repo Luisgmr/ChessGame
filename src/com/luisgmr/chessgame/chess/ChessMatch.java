@@ -4,6 +4,7 @@ import com.luisgmr.chessgame.boardgame.Board;
 import com.luisgmr.chessgame.boardgame.Piece;
 import com.luisgmr.chessgame.boardgame.Position;
 import com.luisgmr.chessgame.chess.pieces.King;
+import com.luisgmr.chessgame.chess.pieces.Pawn;
 import com.luisgmr.chessgame.chess.pieces.Rook;
 
 import java.util.ArrayList;
@@ -194,9 +195,18 @@ public class ChessMatch {
         placeNewPiece('e', 1, new King(board, Color.WHITE));
         placeNewPiece('a', 1, new Rook(board, Color.WHITE));
         placeNewPiece('h', 1, new Rook(board, Color.WHITE));
+
         placeNewPiece('e', 8, new King(board, Color.BLACK));
         placeNewPiece('a', 8, new Rook(board, Color.BLACK));
         placeNewPiece('h', 8, new Rook(board, Color.BLACK));
+
+        // Peões das brancas e pretas
+        char columnPawn = 'a';
+        for (int i = 0; i < 8; i++) {
+            placeNewPiece(columnPawn, 2, new Pawn(board, Color.WHITE));
+            placeNewPiece(columnPawn, 7, new Pawn(board, Color.BLACK));
+            columnPawn++;
+        }
     }
 
 }
