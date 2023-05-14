@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Atualização dos movimentos possíveis do rei">
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Implementando o movimento especial 'en passant'">
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/boardgame/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Pawn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684102841744</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Implementando o movimento especial 'en passant'">
+      <created>1684104195334</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684104195334</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +300,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit inicial" />
     <MESSAGE value="Objeto 'Position', das peças" />
     <MESSAGE value="Implementação do objeto 'Piece'" />
     <MESSAGE value="Implementação do objeto 'Board'" />
@@ -317,6 +324,7 @@
     <MESSAGE value="Implementando a dama" />
     <MESSAGE value="Sistema de roque" />
     <MESSAGE value="Atualização dos movimentos possíveis do rei" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização dos movimentos possíveis do rei" />
+    <MESSAGE value="Implementando o movimento especial 'en passant'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando o movimento especial 'en passant'" />
   </component>
 </project>
