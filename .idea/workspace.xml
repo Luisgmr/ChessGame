@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Implementando a dama">
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Sistema de roque">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/King.java" afterDir="false" />
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684099246691</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Sistema de roque">
+      <created>1684100965056</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684100965056</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +309,7 @@
     <MESSAGE value="Imlementando o bispo e corrigindo print de possíveis movimentos" />
     <MESSAGE value="Implementando o cavalo" />
     <MESSAGE value="Implementando a dama" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando a dama" />
+    <MESSAGE value="Sistema de roque" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistema de roque" />
   </component>
 </project>

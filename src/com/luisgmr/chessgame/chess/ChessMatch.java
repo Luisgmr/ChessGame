@@ -53,6 +53,14 @@ public class ChessMatch {
         return mat;
     }
 
+    public List<Piece> getCapturedPieces() {
+        return capturedPieces;
+    }
+
+    public List<Piece> getPiecesOnTheBoard() {
+        return piecesOnTheBoard;
+    }
+
     public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
         if (check && (!(((ChessPiece)board.piece(sourcePosition.toPosition())) instanceof King))) {
             throw new ChessException("Você está em xeque!");
@@ -228,30 +236,30 @@ public class ChessMatch {
 
     private void initialSetup() {
         placeNewPiece('e', 1, new King(board, Color.WHITE, this));
-        //placeNewPiece('d', 1, new Queen(board, Color.WHITE));
+        placeNewPiece('d', 1, new Queen(board, Color.WHITE));
         placeNewPiece('a', 1, new Rook(board, Color.WHITE));
         placeNewPiece('h', 1, new Rook(board, Color.WHITE));
-        //placeNewPiece('c', 1, new Bishop(board, Color.WHITE));
-        //placeNewPiece('f', 1, new Bishop(board, Color.WHITE));
-        //placeNewPiece('b', 1, new Knight(board, Color.WHITE));
-        //placeNewPiece('g', 1, new Knight(board, Color.WHITE));
+        placeNewPiece('c', 1, new Bishop(board, Color.WHITE));
+        placeNewPiece('f', 1, new Bishop(board, Color.WHITE));
+        placeNewPiece('b', 1, new Knight(board, Color.WHITE));
+        placeNewPiece('g', 1, new Knight(board, Color.WHITE));
 
         placeNewPiece('e', 8, new King(board, Color.BLACK, this));
-        //placeNewPiece('d', 8, new Queen(board, Color.BLACK));
+        placeNewPiece('d', 8, new Queen(board, Color.BLACK));
         placeNewPiece('a', 8, new Rook(board, Color.BLACK));
         placeNewPiece('h', 8, new Rook(board, Color.BLACK));
-        //placeNewPiece('c', 8, new Bishop(board, Color.BLACK));
-        //placeNewPiece('f', 8, new Bishop(board, Color.BLACK));
-        //placeNewPiece('b', 8, new Knight(board, Color.BLACK));
-        //placeNewPiece('g', 8, new Knight(board, Color.BLACK));
+        placeNewPiece('c', 8, new Bishop(board, Color.BLACK));
+        placeNewPiece('f', 8, new Bishop(board, Color.BLACK));
+        placeNewPiece('b', 8, new Knight(board, Color.BLACK));
+        placeNewPiece('g', 8, new Knight(board, Color.BLACK));
 
         // Peões das brancas e pretas
-        /*char columnPawn = 'a';
+        char columnPawn = 'a';
         for (int i = 0; i < 8; i++) {
             placeNewPiece(columnPawn, 2, new Pawn(board, Color.WHITE));
             placeNewPiece(columnPawn, 7, new Pawn(board, Color.BLACK));
             columnPawn++;
-        }*/
+        }
     }
 
 }
