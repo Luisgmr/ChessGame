@@ -53,9 +53,14 @@ public class UserInterface {
         printCapturedPieces(captured);
         System.out.println();
         System.out.println("Turno: " + chessMatch.getTurn());
-        System.out.println("Esperando jogador: " + chessMatch.getCurrentPlayer() + ANSI_RESET);
-        if (chessMatch.isCheck()) {
-            System.out.println("Você está em cheque!");
+        if (!chessMatch.isCheck()) {
+            System.out.println("Esperando jogador: " + chessMatch.getCurrentPlayer() + ANSI_RESET);
+            if (chessMatch.isCheck()) {
+                System.out.println("Você está em xeque!");
+            }
+        } else {
+            System.out.println("Xeque-mate!");
+            System.out.println("Vencedor: " + chessMatch.getCurrentPlayer());
         }
     }
 
