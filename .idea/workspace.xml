@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Troca de jogador a cada turno">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

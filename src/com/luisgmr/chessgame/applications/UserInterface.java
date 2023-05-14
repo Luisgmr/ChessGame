@@ -54,6 +54,9 @@ public class UserInterface {
         System.out.println();
         System.out.println("Turno: " + chessMatch.getTurn());
         System.out.println("Esperando jogador: " + chessMatch.getCurrentPlayer() + ANSI_RESET);
+        if (chessMatch.isCheck()) {
+            System.out.println("Você está em cheque!");
+        }
     }
 
     public static void printBoard(ChessPiece[][] pieces) {
