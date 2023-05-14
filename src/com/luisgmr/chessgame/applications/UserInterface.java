@@ -104,9 +104,9 @@ public class UserInterface {
             System.out.print("-" + ANSI_RESET);
         } else {
             if (piece.getColor() == Color.WHITE) {
-                System.out.print(ANSI_RESET + piece + ANSI_RESET);
+                System.out.print((background ? "" : ANSI_RESET) + piece + ANSI_RESET);
             } else {
-                System.out.print(ANSI_GREEN + piece + ANSI_RESET);
+                System.out.print((background ? "" : ANSI_GREEN) + piece + ANSI_RESET);
             }
         }
         System.out.print(" ");
