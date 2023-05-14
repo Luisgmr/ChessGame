@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Imlementando o bispo e corrigindo print de possíveis movimentos">
-      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Knight.java" afterDir="false" />
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Implementando o cavalo">
+      <change afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684090789493</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Implementando o cavalo">
+      <created>1684098902899</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684098902899</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +287,7 @@
     <MESSAGE value="Correção do xeque aparecer como xeque-mate" />
     <MESSAGE value="Imlementando o peão" />
     <MESSAGE value="Imlementando o bispo e corrigindo print de possíveis movimentos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imlementando o bispo e corrigindo print de possíveis movimentos" />
+    <MESSAGE value="Implementando o cavalo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando o cavalo" />
   </component>
 </project>
