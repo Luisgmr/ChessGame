@@ -93,7 +93,7 @@ public class ChessMatch {
         if (movedPiece instanceof Pawn) {
             if ((movedPiece.getColor() == Color.WHITE && target.getRow() == 0) || (movedPiece.getColor() == Color.BLACK && target.getRow() == 7)) {
                 promoted = (ChessPiece) board.piece(target);
-                promoted = replacePromotedPiece("Q");
+                promoted = replacePromotedPiece("D");
             }
         }
 
@@ -125,7 +125,7 @@ public class ChessMatch {
         if (promoted == null) {
             throw new IllegalStateException("Não há peça para ser promovida.");
         }
-        if (!type.equals("B") && !type.equals("N") && !type.equals("R") & !type.equals("Q")) {
+        if (!type.equals("B") && !type.equals("C") && !type.equals("D") & !type.equals("T")) {
             return promoted;
         }
 
@@ -142,8 +142,8 @@ public class ChessMatch {
 
     private ChessPiece newPiece(String type, Color color) {
         if (type.equalsIgnoreCase("B")) return new Bishop(board, color);
-        if (type.equalsIgnoreCase("N")) return new Knight(board, color);
-        if (type.equalsIgnoreCase("Q")) return new Queen(board, color);
+        if (type.equalsIgnoreCase("C")) return new Knight(board, color);
+        if (type.equalsIgnoreCase("D")) return new Queen(board, color);
         return new Rook(board, color);
     }
 

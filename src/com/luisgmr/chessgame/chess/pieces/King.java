@@ -8,7 +8,6 @@ import com.luisgmr.chessgame.chess.ChessPiece;
 import com.luisgmr.chessgame.chess.Color;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class King extends ChessPiece {
 
@@ -21,7 +20,7 @@ public class King extends ChessPiece {
 
     @Override
     public String toString() {
-        return "K";
+        return "R";
     }
 
     private boolean canMove(Position position) {

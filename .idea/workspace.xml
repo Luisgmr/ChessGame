@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Sistema de promoção">
+    <list default="true" id="67b314d2-cb48-4317-851d-33c5519f8b3d" name="Changes" comment="Melhor tratamento para o sistema de promoção">
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/applications/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luisgmr/chessgame/chess/pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684105353687</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Melhor tratamento para o sistema de promoção">
+      <created>1684105980023</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684105980023</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +317,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementação do objeto 'Piece'" />
     <MESSAGE value="Implementação do objeto 'Board'" />
     <MESSAGE value="Implementação 'Chess' e método print da 'UserInterface'" />
     <MESSAGE value="Colocando as peças no tabuleiro" />
@@ -331,6 +341,7 @@
     <MESSAGE value="Atualização dos movimentos possíveis do rei" />
     <MESSAGE value="Implementando o movimento especial 'en passant'" />
     <MESSAGE value="Sistema de promoção" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sistema de promoção" />
+    <MESSAGE value="Melhor tratamento para o sistema de promoção" />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhor tratamento para o sistema de promoção" />
   </component>
 </project>

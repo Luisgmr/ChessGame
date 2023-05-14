@@ -40,10 +40,10 @@ public class Program {
                 }
 
                 if (chessMatch.getPromoted() != null) {
-                    System.out.print("Digite a peça para promoção (B/N/R/Q): ");
+                    System.out.print("Digite a peça para promoção (B/C/D/T): ");
                     String type = sc.nextLine().toUpperCase();
-                    while (!type.equals("B") && !type.equals("N") && !type.equals("R") & !type.equals("Q")) {
-                        System.out.print("Valor inválido! Digite novamente a peça para promoção (B/N/R/Q): ");
+                    while (!type.equals("B") && !type.equals("C") && !type.equals("D") & !type.equals("T")) {
+                        System.out.print("Valor inválido! Digite novamente a peça para promoção (B/C/D/T): ");
                         type = sc.nextLine().toUpperCase();
                     }
                     chessMatch.replacePromotedPiece(type);
