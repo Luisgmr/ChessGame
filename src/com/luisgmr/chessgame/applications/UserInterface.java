@@ -53,7 +53,7 @@ public class UserInterface {
         printCapturedPieces(captured);
         System.out.println();
         System.out.println("Turno: " + chessMatch.getTurn());
-        if (!chessMatch.isCheck()) {
+        if (!chessMatch.isCheckMate()) {
             System.out.println("Esperando jogador: " + chessMatch.getCurrentPlayer() + ANSI_RESET);
             if (chessMatch.isCheck()) {
                 System.out.println("Você está em xeque!");
