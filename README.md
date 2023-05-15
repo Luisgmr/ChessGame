@@ -35,9 +35,9 @@ Além das funcionalidades propostas no curso de Java completo 2023 pelo professo
 
 > Detecção de movimentos impossíveis do rei para serem ocultos no print do console;
 
-> Bloqueio do roque se uma peça adversária estiver ameaçando as casas necessárias para executar a ação.
+> Bloqueio do roque se uma peça adversária estiver ameaçando as casas necessárias para executar a ação;
 
-> Estilização da impressão no IntelliJ
+> Estilização da impressão no IntelliJ.
 
 ## 📰 Futuras atualizações
 
